@@ -1,0 +1,8 @@
+c:\Users\Admin\Desktop\вкр бенмусса\'\bin\Debug\'.dacpac
+c:\Users\Admin\Desktop\вкр бенмусса\'\obj\Debug\'.sqlproj.AssemblyReference.cache
+c:\Users\Admin\Desktop\вкр бенмусса\'\obj\Debug\Model.xml
+c:\Users\Admin\Desktop\вкр бенмусса\'\obj\Debug\refactor.xml
+c:\Users\Admin\Desktop\вкр бенмусса\'\obj\Debug\postdeploy.sql
+c:\Users\Admin\Desktop\вкр бенмусса\'\obj\Debug\predeploy.sql
+c:\Users\Admin\Desktop\вкр бенмусса\'\obj\Debug\'.dll
+c:\Users\Admin\Desktop\вкр бенмусса\'\obj\Debug\'.pdb

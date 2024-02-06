@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid;
+    border-color: #48036F;
+    background-color: rgb(252, 243, 252);
+}
+.header img
+{
+    position: absolute;
+    margin-right: 90%;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.name 
+{
+    font-family: 'Pacifico', cursive;
+    color: #48036F;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.button_start
+{
+    display: flex;
+    position: static;
+    font-family: 'Ubuntu', bold;
+    font-size: 25px;
+    color: white;
+    background-color: #48036F;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px #48036F solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 60px;
+    cursor: pointer;
+    justify-content: center;
+}
+.button_start:hover
+{
+    background-color: white;
+    color: #48036F;
+    border: 3px #48036F solid;
+    transition: 0.5s;
+    padding-left: 190px;
+    padding-right: 190px;
+    border-radius: 25px;
+}
+.button_start:not(:hover)
+{
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #48036F;
+    transition: 0.5s;
+}
+.vhod_admina
+{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    margin-left: 83%;
+    align-items: center;
+    justify-content: center;
+    border: 3px #48036F solid;
+    background-color: #48036F;
+    border-radius: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 23px;
+    color: white;
+    font-family: 'Ubuntu', bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.vhod_admina:hover
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.5s;
+    background-color: white;
+    color: #48036F;
+    border-radius: 25px;
+}
+.vhod_admina:not(:hover)
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.5s;
+    background-color: #48036F;
+    color: white;
+    border-radius: 60px;
+}

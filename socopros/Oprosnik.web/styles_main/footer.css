@@ -1,0 +1,73 @@
+body
+{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(245, 226, 245);
+}
+.footer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px #48036F solid;
+}
+.logos
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.logo_vk
+{
+    margin-right: 3%;
+    cursor: pointer;
+}
+.logo_telegram
+{
+    margin-right: 3%;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.logo_whatsapp
+{
+    margin-left: 3%;
+    cursor: pointer;
+}
+.svyaz
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+#phone
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mail
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.soglashenie
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline 1px;
+    cursor: pointer;
+    margin-left: 5%;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -26,16 +26,6 @@ body
     margin-bottom: 10px;
     cursor: pointer;
 }
-.name 
-{
-    font-family: 'Pacifico', cursive;
-    color: #48036F;
-    font-size: 35px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-top: 5px;
-}
 .button_start
 {
     display: flex;

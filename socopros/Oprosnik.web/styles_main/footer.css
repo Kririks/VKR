@@ -22,18 +22,18 @@ body
 }
 .logo_vk
 {
-    margin-right: 3%;
+    margin-right: 5%;
     cursor: pointer;
 }
 .logo_telegram
 {
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
     cursor: pointer;
 }
 .logo_whatsapp
 {
-    margin-left: 3%;
+    margin-left: 5%;
     cursor: pointer;
 }
 .svyaz
@@ -48,7 +48,7 @@ body
 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-right: 5%;
+    margin-left: 4%;
     font-size: 20px;
     cursor: pointer;
 }
@@ -67,7 +67,6 @@ body
     font-weight: bold;
     text-decoration: underline 1px;
     cursor: pointer;
-    margin-left: 5%;
     font-size: 20px;
     cursor: pointer;
 }

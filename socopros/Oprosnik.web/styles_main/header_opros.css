@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid;
+    border-color: #48036F;
+    background-color: rgb(252, 243, 252);
+    height: 95px;
+}
+.header img
+{
+    position: absolute;
+    margin-right: 90%;
+    margin-top: 15px;
+    margin-left: 98px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

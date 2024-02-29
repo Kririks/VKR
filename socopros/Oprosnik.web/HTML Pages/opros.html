@@ -14,47 +14,144 @@
 </head>
 <body>
     <header class="header">
-        <img src="/logo.svg" width="170px" height="60px" onclick="location='/Oprosnik.web/HTML Pages/oprosnik.html'">
+        <img src="/logo.svg" style="margin-left: 90%;" width="170px" height="60px" onclick="location='/Oprosnik.web/HTML Pages/oprosnik.html'">
     </header>
     <div class="main" style="background-image: url(/964-liquid-paint-stains-spots-fluid-art-4k.jpg); background-repeat: no-repeat;">
         <div class="opros">
             <ol>
-                <li>
-                    <p>Ваш пол:</p>
-                    <ul>
-                       <input type="radio"> Мужской</ul>
-                    <ul>Женский</ul>
-                </li>
-                <li>
-                    <p>Сколько часов Вы смотрите телевизор?</p>
-                    <ul>Не смотрю;</ul>
-                    <ul>Меньше 2 часов в день;</ul>
-                    <ul>больше 2 часов в день;</ul>
-                </li>
-                <li>
-                    <p>Сколько часов Вы проводите в социальных сетях?</p>
-                    <ul>Меньше часа;</ul>
-                    <ul>От 5 до 15 часов;</ul>
-                    <ul>Больше 15 часов;</ul>
-                </li>
-                <li>
-                    <p>Часто ли Вас посещают мысли о самоубийстве?</p>
-                    <ul>Часто;</ul>
-                    <ul>Иногда;</ul>
-                    <ul>Никогда;</ul>
-                </li>
-                <li>
-                    <p>Сколько часов, в среднем, Вы спите?</p>
-                    <ul>От 4 до 6 часов;</ul>
-                    <ul>От 6 до 8 часов;</ul>
-                    <ul>Больше 8 часов;</ul>
-                </li>
-                <li>
-                    <p>Насколько Вы ощущаете себя счастливым/счастливой?</p>
-                    <ul>Очень счастлив/счастлива;</ul>
-                    <ul>Довольно счастлив/счастлива;</ul>
-                    <ul>Не счастлив/счастлива;</ul>
-                </li>
+                <ul>
+                    <li style="color: black; font-family: 'Ubuntu', bolder; font-size: 18px; font-weight: 600;">
+                        Ваш пол:
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question1" value="option1">
+                            Мужской
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question1" value="option2">
+                            Женский
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li style="color: black; font-family: 'Ubuntu', bolder; font-size: 18px; font-weight: 600;">
+                        Сколько часов Вы смотрите телевизор?
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question2" value="option1">
+                            Не смотрю;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question2" value="option2">
+                            Меньше 2 часов в день;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question2" value="option3">
+                            Больше 2 часов в день;
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li style="color: black; font-family: 'Ubuntu', bolder; font-size: 18px; font-weight: 600;">
+                        Сколько часов Вы проводите в социальных сетях?
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question3" value="option1">
+                            Меньше часа;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question3" value="option2">
+                            От 5 до 15 часов;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question3" value="option3">
+                            Больше 15 часов;
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li style="color: black; font-family: 'Ubuntu', bolder; font-size: 18px; font-weight: 600;">
+                        Часто ли Вас посещают мысли о самоубийстве?
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question4" value="option1">
+                            Часто;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question4" value="option2">
+                            Иногда;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question4" value="option3">
+                            Никогда;
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li style="color: black; font-family: 'Ubuntu', bolder; font-size: 18px; font-weight: 600;">
+                        Сколько часов, в среднем, Вы спите?
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question5" value="option1">
+                            От 4 до 6 часов;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question5" value="option2">
+                            От 6 до 8 часов;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question5" value="option3">
+                            Больше 8 часов;
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li style="color: black; font-family: 'Ubuntu', bolder; font-size: 18px; font-weight: 600;">
+                        Насколько Вы ощущаете себя счастливым/счастливой?
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question6" value="option1">
+                            Очень счастлив/счастлива;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question6" value="option2">
+                            Довольно счастлив/счастлива;
+                        </label>
+                    </li>
+                    <li>
+                        <label style="font-weight: 600; color: #48036F;">
+                            <input type="radio" name="question6" value="option3">
+                            Не счастлив/счастлива;
+                        </label>
+                    </li>
+                </ul>
+                <button class="submit">Отправить результат</button>
             </ol>
         </div>
     </div>

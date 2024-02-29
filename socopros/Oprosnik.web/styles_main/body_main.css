@@ -38,3 +38,45 @@ body
    display: flex;
    flex-direction: column;
 }
+li
+{
+   list-style: none;
+   line-height: 35px;
+   margin: 0 0 1% 0;
+   margin-bottom: 5%;
+}
+p
+{
+   font-family: 'Ubuntu', bolder;
+   font-size: 18px;
+   font-weight: 600;
+}
+ul
+{
+   display: flex;
+   flex-direction: column;
+   counter-increment: myCounter;
+   content: counter(myCounter);
+   color: #48036F;
+   height: auto;
+   width: auto;
+   margin: 0 5% 0 0;
+   padding: 0 1%;
+   font-family: 'Ubuntu', bolder;
+   font-size: 18px;
+   font-weight: 550;
+}
+ol
+{
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   margin-left: 35%;
+   background: rgba(255, 255, 255, 0.8);
+   counter-reset: myCounter;
+   border-left: 3px solid #48036F;
+   border-right: 3px solid #48036F;
+   padding-left: 5%;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}

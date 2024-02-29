@@ -27,3 +27,15 @@ body
     margin-bottom: 10px;
     cursor: pointer;
 }
+.header img:hover
+{
+    width: 200px;
+    height: 100px;
+    transition: 0.3s;
+}
+.header img:not(hover)
+{
+    width: 170px;
+    height: 60px;
+    transition: 0.3s;
+}

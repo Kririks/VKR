@@ -1,4 +1,4 @@
-CREATE TABLE Login_user(
+  CREATE TABLE Login_user(
 	ID				INT IDENTITY(1, 1) PRIMARY KEY,
 	Name_User		VARCHAR(30),
 	Surname_User	VARCHAR(30),
